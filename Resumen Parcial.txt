@@ -1,0 +1,96 @@
+Iluminación:
+Luz Halógena: Se calienta, se degrada con el tiempo, no se puede usar como strover. Se usa en laboratorios, e incubadoras.
+Luz Incandescente: Económica, se calienta, no se puede usar de strover. Se usa en bombillos de casa
+Luz Fluorescente: Iluminación uniforme, genera ruido indeseable. Se degrada
+Luz Láser: Linear, peligrosa, para escanear objetos pequeños, reconocimiento 3D, costoso, detecta movimiento.
+Luz led: alta duración, estroboscópica (alta velocidad, detecta movimiento), colores.
+
+Técnicas:
+
+Frontal: La cámara se posiciona mirando al objeto en la misma
+dirección que la luz. Esto reduce las sombras, suaviza las texturas y minimiza la
+influencia de rayas, polvo e imperfecciones que pueda tener el objeto. La cámara recibe
+la luz reflejada del objeto. Este tipo de iluminación se consigue mediante anillos de luz.
+Aplicaciones: indicada para superficies con pocos reflejos: papel, tela… para la
+detección de marcas de diferentes colores
+
+Lateral: La cámara se posiciona mirando al objeto mientras que la
+dirección de la luz es lateral al objeto. El grado de inclinación del elemento emisor de luz
+vendrá determinado por el grado deseado de resalte de los relieves.
+Aplicaciones: indicada para resaltar bordes, rayas y fisuras en una dirección
+determinada.
+
+Campo oscuro:  La luz es emitida lateralmente
+con un ángulo muy pequeño mediante un anillo en todas las direcciones, rebotando en
+los defectos del objeto a analizar e incidiendo en la cámara.
+Aplicaciones: indicada para resaltar incrustaciones y códigos alfanuméricos con poco
+contraste en metal sobre metal o gris sobre gris. Muy utilizada en la verificación de
+grabados tipo láser o troquel.
+
+LUMINACIÓN AXIAL DIFUSA: La luz es emitida lateralmente siendo reflejada 90º por
+un espejo semitransparente que desvía los haces de luz en la misma dirección que el eje
+de la cámara, consiguiendo una luz difusa homogénea.
+En superficies planas reflectantes si no se utiliza este método de iluminación, la cámara
+vería reflejado su propio objetivo
+
+ILUMINACIÓN DIFUSA TIPO DOMO: La luz es emitida dentro de una cúpula esférica
+resultando una luz difusa desde todas direcciones, eliminando sombras y reflejos,
+suavizando texturas y minimizando la influencia de rayas, polvo, relieves y curvaturas que
+pueda tener el objeto inspeccionado.
+Aplicaciones: indicada para la inspección de superficies tales como instrumental médico,
+espejos, compact disk, latas, etc.
+
+ILUMINACIÓN POR LÁSER: La iluminación mediante láser o luz estructurada se utiliza
+normalmente para resaltar o determinar una tercera dimensión de un objeto. Se trata de
+colocar la fuente de luz láser en un ángulo conocido con respecto al objeto a iluminar y a
+la cámara, de forma que viendo la distorsión de la luz pueda interpretarse la profundidad
+de los objetos a medir.
+Aplicaciones: ajuste de procesos de corte, control de profundidad de objetos...
+
+
+Tipos de cámaras
+Industriales (RGB y escala de grises), térmicas, microscópicas, ultra sonido, puntos láser, rayos X.
+Distancia focal: distancia entre el centro óptico del lente y el plano del sensor de la cámara.
+Distancia de enfoque: Distancia entre el plano del sensor de la cámara y el objeto.
+A mayor distancia focal veo menos parte del objeto, por eso se aumenta el tamaño.
+Diafragma: Regula la cantidad de luz que le llega al sensor de la cámara, abriendo o cerrando el paso de luz.
+Tiempo de exposición: Es el tiempo que está abierto el obturador para dejar que la luz impresione el sensor con la imagen del objeto fotografiado.
+Selección de lente: 
+Distancia focal = Tamaño del sensor CCD o CMOS * Distancia de trabajo*factor de conversión/Ancho del objeto
+
+Espacios de color HSV, CMYK, RGB
+
+Histogramas
+
+Se puede procesar o no se puede una imagen dependiendo de lo que se quiera 
+representacion de pixeles, por diagrama de barras y dice que cantidad de 
+pixeles hay de cada color en la imagen y la suma deria el total de pixeles 
+ P=N/M
+N = Es el numero de pixeles por nivel de intensidad 
+M = Total de pixeles
+
+Sirve para la segmentacion de una imagen
+
+Funciones Aritmeticas 
+Suma
+Combinaciones lineales de pixeles, del mismo tamaño de imagen 
+Se usa normalizacion o limitacion dependiendo si es necesario cuando se
+suman los valores de pixeles de una imagen (Formula en diapositivas)
+
+cv2.add() - suma imagenes
+cv2.split() - separa por canales
+cv2.flip() - voltea la imagen
+cv2.putText
+cv2.line
+cv2.rectangle
+cv2.circle
+
+Resta 
+Para deteccion de imagenes o cambios en una imagen 
+se usa limitacion para evitar que se den valores negativos
+
+Multiplicacion 
+
+Formulas en las diapositivas 
+
+Division no se usa
